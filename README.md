@@ -15,6 +15,7 @@ The defense that we implemented only required changes to the sender, but we stil
 If this paper was written in 1999, and we are still able to successfully perform the optimistic ACK attack, it brings into question whether TCP will ever be defended against this attack.
 
 3 Implementation experience
+
 To exploit the vulnerabilities described above, we made three modifications to the TCP subsystem of Linux 2.2.10. This resulting
 TCP implementation, which we refer to facetiously as “TCP Daytona”, provides extremely high performance at the expense of its
 competitors. We demonstrate these abilities with time sequence
@@ -23,9 +24,11 @@ Needless to say, our implementation is intentionally not “stable”,
 and would likely
 
 To run the project:
+
 1- You must have python 2.7, mininet 2.2.2, matplotlib 2.2.2 and scapy module.
 Run this command in terminal
 sudo python main.py 
 
 After running, you will see the newly created log and graphs files.
+
 NOTE: This project is compatible with Ubuntu 14.04. Cannot guarantee other versions. (düzenlendi)
