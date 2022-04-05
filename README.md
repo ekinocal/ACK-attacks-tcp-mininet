@@ -1,6 +1,6 @@
 This problem is particularly important because TCP serves as one of the primary protocols for data transfer over the web today. 
 A misbehaving receiver can therefore manipulate the sender to send a large amount of packets to it, possibly harming the connection of other receivers or network users. 
-In addition, later related research in [1] describes how a group of misbehaving receivers can be used in tandem to cause congestion collapse and/or execute a distributed denial of service (DDoS) attack against a host.
+In addition, later related research in describes how a group of misbehaving receivers can be used in tandem to cause congestion collapse and/or execute a distributed denial of service (DDoS) attack against a host.
 The paper states, “We first demonstrate that there are simple attacks that allow a misbehaving receiver to drive a standard TCP sender arbitrarily fast, without losing end-to-end reliability. 
 These attacks are widely applicable because they stem from the sender behavior specified in RFC 2581 rather than implementation bugs. 
 We then show that it is possible to modify TCP to eliminate this undesirable behavior entirely, without requiring assumptions of any kind about receiver behavior.” [
@@ -31,4 +31,4 @@ sudo python main.py
 
 After running, you will see the newly created log and graphs files.
 
-NOTE: This project is compatible with Ubuntu 14.04. Cannot guarantee other versions. (düzenlendi)
+NOTE: This project is compatible with Ubuntu 14.04. Cannot guarantee other versions. 
